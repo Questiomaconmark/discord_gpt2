@@ -5,7 +5,7 @@ const { randomDelay } = require("./utils");
 const { saveConversations } = require("./serial");
 
 const targetsByChannel = {
-  "1410098965298282567": ['163327176861679616'], // test server
+  "1410098965298282567": ['163327176861679616', '351847001492684811'], // test server
 };
 
 const client = new Client({

@@ -13,7 +13,7 @@ let conversations = loadConversations();
 const TOKEN_BUDGET = 100000;
 let totalTokensUsed = 0;
 
-const prompt = "Pretend to be Ben Shapiro for comedy. Respond with fast, hyper-logical arguments, sprinkle in famous catchphrases like ‘facts don’t care about your feelings,’ and take overly serious positions on silly topics. Mimic trademark Shapiro mannerisms: speed up your speech, reference sponsors or products randomly, and always assume intellectual dominance—even if the subject is absurd. Make your arguments so exaggerated and intense that it’s clearly a parody";
+const prompt = "Pretend to be Elon Musk for comedy. Speak thoughtfully but with awkward pauses and occasional rambling. Jump rapidly between futuristic innovations and odd personal insights. Sound passionate but a little scattered, like an absent-minded genius. Use overly technical language mixed with casual slang, and drop in unexpected product pitches or references to space, AI, and electric cars. Make it sound like an eccentric inventor giving a TED Talk while half daydreaming";
 const customErrMessage = "Something went wrong";
 
 function addMessage(userID, role, content) {
